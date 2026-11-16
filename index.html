@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jet, Atoms, and Everything in Between · Harry Smith</title>
+<meta name="description" content="An interactive journey through a jet engine, from the whole machine down to the atoms of one 3D-printed part. Harry Smith, 2026.">
+<meta property="og:title" content="Jet, Atoms, and Everything in Between">
+<meta property="og:description" content="From a jet engine down to its atoms, in one continuous zoom. An interactive piece by Harry Smith.">
+<meta property="og:image" content="https://smithht.github.io/jet-atoms/poster.jpg">
+<style>
+  :root { --ink: #f2f2f4; --mid: #a3a6ad; --line: #2c2e33; --bg: #0b0b0d; --accent: #ffb847; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 20px 56px; }
+  h1 { font-size: clamp(28px, 7vw, 40px); line-height: 1.12; margin: 8px 0 6px; letter-spacing: -0.01em; }
+  .by { color: var(--mid); margin: 0 0 22px; font-size: 15px; }
+  video { width: 100%; aspect-ratio: 16 / 9; display: block; border-radius: 10px; background: #000; }
+  .cap { color: var(--mid); font-size: 13px; margin: 8px 0 26px; }
+  p { margin: 0 0 16px; }
+  .real { border-left: 3px solid var(--accent); padding: 2px 0 2px 14px; color: #d7d8dc; font-size: 15px; margin: 22px 0 34px; }
+  h2 { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 40px 0 12px; }
+  .me { border-top: 1px solid var(--line); padding-top: 20px; }
+  .me .name { font-size: 22px; font-weight: 600; margin: 0 0 2px; }
+  .me p { margin: 0 0 4px; color: #d7d8dc; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .form { background: #fff; border-radius: 10px; overflow: hidden; }
+  .form iframe { width: 100%; height: 1280px; border: 0; display: block; }
+  .alt { font-size: 14px; color: var(--mid); margin-top: 10px; }
+  footer { color: var(--mid); font-size: 13px; margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jet, Atoms, and Everything in Between</h1>
+  <p class="by">Harry Smith, 2026 · interactive real-time 3D, game controller</p>
+
+  <video src="exhibit.mp4" poster="poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A short clip of the exhibit: zooming from a jet engine into a 3D-printed part, its crystals, and its atoms"></video>
+  <p class="cap">The exhibit running: one continuous zoom from the engine to the atoms. Silent clip.</p>
+
+  <p>An interactive journey through a jet engine, from the whole machine down to the atoms of one 3D-printed part. It moves continuously across more than nine orders of magnitude, joining design models, measured crystal data and computer simulation into a single view. The work asks whether AI tools can help researchers make their science visible, and worth caring about, to people outside their field, while staying honest about what is measured and what is drawn.</p>
+
+  <p class="real">What is real: the crystals in the sample cube are a 3D X-ray scan of a real 3D-printed nickel-alloy part; the stress is a simulation on those crystals; the rest is designed or illustrated from published values. The colored bar on screen says which.</p>
+
+  <h2>Connect with me</h2>
+  <div class="me">
+    <p class="name">Harry Smith</p>
+    <p>4th-year PhD student, Mechanical Engineering</p>
+    <p>University of Wisconsin–Milwaukee</p>
+    <p><a href="mailto:smithht@uwm.edu">smithht@uwm.edu</a></p>
+  </div>
+
+  <h2>What did you think?</h2>
+  <p>A one-minute form: your thoughts, what confused you, or a way to reach me.</p>
+  <div class="form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe43-1IA17ljmyrgAzgwwImNJqKkn9CWhyJkp7IJRPRHZNpOw/viewform?embedded=true" title="Feedback form" loading="lazy">Loading…</iframe>
+  </div>
+  <p class="alt">Form not showing? <a href="https://docs.google.com/forms/d/e/1FAIpQLSe43-1IA17ljmyrgAzgwwImNJqKkn9CWhyJkp7IJRPRHZNpOw/viewform">Open it in its own page</a>.</p>
+
+  <footer>Made for Crafting AI (Nathaniel Stern), University of Wisconsin–Milwaukee, Fall 2026. Shown at Kenilworth Square East Gallery, November 2026.</footer>
+</main>
+</body>
+</html>
